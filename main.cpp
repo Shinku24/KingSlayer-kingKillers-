@@ -77,7 +77,7 @@ int main(int argc, char * argv[]){
 	string enfermedadesN;
 	string enfermedadesD;
 	
-	string citaT;	
+	string citaDia;	
 	string citaD;
 	
 	string medicamentosN;
@@ -87,12 +87,24 @@ int main(int argc, char * argv[]){
 	cedula = convertirStr(text);
 	insertarTexto("Nombre", text);
 	nombre = text;
-	insertarTexto("sexo", text);
+	insertarTexto("Sexo", text);
 	sexo = text;
 	insertarNumero("Edad", text);
 	edad = convertirStr(text);
 	
+	insertarTexto("Nombre de las Enfermedades Diagnosticadas", text);
+	enfermedadesN = text;
+	insertarTexto("Descripcion de las Enfermedades Diagnosticadas", text);
+	enfermedadesD = text;
 	
-
+	cout << "Dia de las Citas Medicas: ";
+	cin >> citaDia;
+	insertarTexto("Descripcion de las Citas Medicas", text);
+	enfermedadesD = text;
+	
+	insertarTexto("Nombre de los Medicamentos", text);
+	medicamentosN = text;
+	insertarNumero("Numero de Dosis de Medicamentos", text);
+	medicamentoNumD = convertirStr(text);	
 
 }

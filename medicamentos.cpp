@@ -1,4 +1,4 @@
-#include "medicamentos.h"
+#include "medicamento.h"
 
 Medicamentos::Medicamentos(string nombreIn, int dosisIn){
 

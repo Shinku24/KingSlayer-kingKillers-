@@ -2,7 +2,7 @@
 
 Citas::Citas(string diaIn, string descripcionIn){
 
-	dia = diaIn:
+	dia = diaIn;
 	descripcion = descripcionIn;
 }
 

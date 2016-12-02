@@ -21,3 +21,4 @@ public:
 	void setDia(string diaIn);
 	void setDescripcion(string descripcionIn);
 };
+#endif
